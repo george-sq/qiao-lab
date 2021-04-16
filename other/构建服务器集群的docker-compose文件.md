@@ -1,6 +1,5 @@
 # 构建服务器集群的docker-compose文件
 
-```
 version: '3.7'
 
 services:
@@ -58,4 +57,3 @@ networks:
     db_net:
         external: true
         name: db_net
-```
